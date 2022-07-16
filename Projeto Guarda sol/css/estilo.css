@@ -1,0 +1,133 @@
+@font-face{
+	font-family: "logo";
+	src:  url(../fontes/logo.woff);
+}
+@font-face{
+	font-family: "fonte-pagina";
+	src: url(../fontes/monofonto-rg.woff);
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: rgba(229, 231, 233, 0.5);
+
+}
+
+
+
+
+/*CABEÇALHO*/
+header{
+	background-size: cover;
+	background: url(../imagem/cabecalho.jpg) no-repeat;
+	
+	
+	
+}
+
+section#logo{
+	font-family: logo;
+	font-size: 30px;
+	color: rgba(244, 246, 246, 0.3);
+	text-align: center;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 70px ;
+}
+nav ul li{
+	
+}
+nav ul li a{
+	color: rgba(199, 34, 81, 1.0);
+	text-decoration: none;
+	font-size: 30px;
+
+
+}
+nav ul li a:hover{
+	
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+
+
+}
+
+/*corpo da pagina*/
+
+
+
+#caixa1{
+	height: 539px;
+	background-size: cover;
+	background-image: url(../imagem/imagem1.jpg);
+	background-attachment: fixed;
+	opacity: 0.7;
+	background-position: center;
+
+}
+
+
+#caixa2{
+	height: 539px;
+	background-size: cover;
+	background-image: url(../imagem/imagem2.jpg);
+	background-attachment: fixed;
+	opacity: 0.7;
+	background-position: center;
+
+}
+
+#caixa3{
+	height: 539px;
+	background-size: cover;
+	background-image: url(../imagem/imagem3.jpg);
+	background-attachment: fixed;
+	opacity: 0.7;
+	background-position: center;
+}
+
+
+.separacao{
+	background: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	padding: 20px;
+	
+	font-family: logo;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Rodapé*/
+
+
+footer{
+	text-align: center;
+	background: rgba(255, 255, 255, 1.0);
+	padding: 20px;
+	margin: 20px ;
+	font-size:10px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
